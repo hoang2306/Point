@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "point-game"
+version = "1.0.0"
+description = "Python Pygame port of the C++ SDL2 Point game"
+readme = "README_PYTHON.md"
+requires-python = ">=3.8"
+dependencies = [
+    "pygame>=2.5.0",
+]
+
+[project.scripts]
+point-game = "py_point.main:main"

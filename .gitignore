@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# PyInstaller / Packaging
+build/
+dist/
+*.spec
+*.egg-info/
+
+# C++ Build artifacts (preserve original bin/obj if present)
+*.o
+*.obj
