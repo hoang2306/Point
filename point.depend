@@ -1,0 +1,120 @@
+# depslib dependency file v1.0
+1683637611 source:c:\users\hoang\desktop\point_noob\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<iostream>
+	<vector>
+	<set>
+	<fstream>
+	"header/RenderWindow.h"
+	"header/Object.hpp"
+	"header/Me.hpp"
+	"header/Rope.hpp"
+	"header/EventManager.hpp"
+	"header/ObjectManager.hpp"
+	"header/Lava.hpp"
+
+1683637611 c:\users\hoang\desktop\point_noob\header\renderwindow.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<vector>
+	<set>
+	"Object.hpp"
+	"Me.hpp"
+	"LTexture.hpp"
+	"Lava.hpp"
+
+1683637611 c:\users\hoang\desktop\point_noob\header\object.hpp
+	<stdio.h>
+	<math.h>
+
+1683637611 c:\users\hoang\desktop\point_noob\header\me.hpp
+	<stdio.h>
+	<iostream>
+	<math.h>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	"Object.hpp"
+	"Lava.hpp"
+
+1683637611 c:\users\hoang\desktop\point_noob\header\lava.hpp
+	<stdio.h>
+	<iostream>
+	<math.h>
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	"Object.hpp"
+
+1683637611 c:\users\hoang\desktop\point_noob\header\ltexture.hpp
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	<SDL_ttf.h>
+
+1683637611 c:\users\hoang\desktop\point_noob\header\rope.hpp
+	<stdio.h>
+	<math.h>
+	<vector>
+	"Object.hpp"
+	"Me.hpp"
+	"Lava.hpp"
+
+1683637611 c:\users\hoang\desktop\point_noob\header\eventmanager.hpp
+	<stdio.h>
+	<vector>
+	"Rope.hpp"
+	"RenderWindow.h"
+	"Me.hpp"
+	"Object.hpp"
+	<SDL.h>
+	<SDL_image.h>
+
+1683637611 c:\users\hoang\desktop\point_noob\header\objectmanager.hpp
+	"Me.hpp"
+	"Object.hpp"
+
+1683637611 source:c:\users\hoang\desktop\point_noob\eventmanager.cpp
+	"header/EventManager.hpp"
+	<iostream>
+
+1683637611 source:c:\users\hoang\desktop\point_noob\lava.cpp
+	"header/Lava.hpp"
+
+1683637611 source:c:\users\hoang\desktop\point_noob\ltexture.cpp
+	"header/LTexture.hpp"
+
+1683637611 source:c:\users\hoang\desktop\point_noob\me.cpp
+	"header/Me.hpp"
+
+1683637611 source:c:\users\hoang\desktop\point_noob\object.cpp
+	"header/Object.hpp"
+
+1683637611 source:c:\users\hoang\desktop\point_noob\objectmanager.cpp
+	"header/ObjectManager.hpp"
+	<bits/stdc++.h>
+
+1683637611 source:c:\users\hoang\desktop\point_noob\renderwindow.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+	"header/RenderWindow.h"
+
+1683637611 source:c:\users\hoang\desktop\point_noob\rope.cpp
+	"header/Rope.hpp"
+	<climits>
+	<iostream>
+
+1683637611 source:c:\users\hoang\desktop\point_noob\test.cpp
+
+1683637611 source:c:\users\hoang\desktop\point_noob\vector.cpp
+	<math.h>
+	"header/Vector.hpp"
+
+1683637611 c:\users\hoang\desktop\point_noob\header\vector.hpp
+	<iostream>
+
